@@ -15,6 +15,8 @@ const theme = createTheme(
   }
 );
 
+// add slide import in the order in which they are shown,
+// intro will be shown first, table will be shown last.
 const slidesImports = [
   import("./slides/intro"),
   import("./slides/images"),
